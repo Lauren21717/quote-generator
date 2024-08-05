@@ -10,11 +10,11 @@
 <body>
     <main class="quote-box">
         <h2>Quote of the day</h2>
-        <blockquote>Loading...</blockquote>
-        <span>Loading...</span>
+        <blockquote id="quote">Loading...</blockquote>
+        <span id="author">Loading...</span>
         <section class="quote-button">
-            <button>New Quote</button>
-            <button><i class="fa-brands fa-twitter"></i>Twette</button>
+            <button onclick="getquote(api_url)">New Quote</button>
+            <button onclick="tweet()"><i class="fa-brands fa-twitter"></i>Twette</button>
         </section>
     </main>
     <script src="assets/js/script.js"></script>
